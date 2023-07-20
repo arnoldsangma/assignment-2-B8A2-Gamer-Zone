@@ -410,6 +410,8 @@ footer {
   }
   .hyper-btn {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   .footer-container{
     flex-direction: column;
@@ -486,10 +488,9 @@ footer {
     margin: auto;
   }
   .hyper-btn {
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   
-  .hyper-btn {
-    flex-wrap: wrap;
-  }
 }
