@@ -139,7 +139,7 @@ body {
 .online-games-container {
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  width: 100%;
 }
 
 .online-games-img {
@@ -154,6 +154,8 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
+  border: 2px solid slateblue;
+  overflow: hidden;
 }
 .img-overlay {
   width: 100%;
@@ -268,6 +270,7 @@ a,
 footer {
   background-color: #0b0223;
   min-height: 400px;
+  width: 100%;
 }
 .footer-container {
   display: flex;
