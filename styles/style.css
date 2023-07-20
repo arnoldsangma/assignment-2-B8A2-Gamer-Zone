@@ -252,6 +252,7 @@ a,
   border-radius: 50px;
   gap: 10px;
   cursor: pointer;
+  transition: .4s;
 }
 .icon-hover-container:hover {
   border: 1px solid #f948b2;
@@ -261,6 +262,7 @@ a,
   display: flex;
   justify-content: center;
   gap: 20px;
+
 }
 .first-hyper {
   margin-top: 100px;
