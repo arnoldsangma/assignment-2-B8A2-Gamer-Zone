@@ -277,6 +277,7 @@ footer {
   font-size: 40px;
   font-weight: 700;
   color: #fff;
+  padding-top: 50px;
 }
 .footer-img {
   display: flex;
@@ -315,6 +316,7 @@ footer {
 .settings-and-others a {
   color: #fff;
 }
+
 .footer-desc {
   margin-top: 50px;
   text-align: center;
@@ -402,12 +404,15 @@ footer {
     bottom: 100px;
     right: 50px;
   }
-
   .hyper-btn {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+  }
+  .footer-container{
+    flex-direction: column;
   }
   .footer-list{
-    grid-template-columns: repeat(3, 1);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
   }
   .settings-and-others{
     grid-template-columns: repeat(2, 1fr);
